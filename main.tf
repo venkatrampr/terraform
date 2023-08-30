@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "test_terraform" {
-  ami           = "ami-0911e88fb4687e06b"
+  ami           = "ami-0cf0e376c672104d6"
   instance_type = "t2.micro"
 
   tags = {
